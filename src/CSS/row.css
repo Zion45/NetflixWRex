@@ -1,0 +1,37 @@
+/* Styles for the 'row' class */
+.row {
+    color: white; /* Sets the text color to white */
+    margin-left: 20px; /* Adds a 20px space on the left side */
+}
+
+/* Styles for the 'row_posters' class */
+.row_posters {
+    display: flex; /* Arranges elements in a flexible row */
+    overflow-y: hidden; /* Hides vertical scrollbar */
+    overflow-x: scroll; /* Enables horizontal scrolling */
+    padding: 20px; /* Adds 20px padding around the content */
+}
+
+/* Hides the scrollbar for 'row_posters' in WebKit browsers (like Chrome and Safari) */
+.row_posters::-webkit-scrollbar {
+    display: none;
+}
+
+/* Styles for the 'row_poster' class */
+.row_poster {
+    max-height: 250px;
+    object-fit: contain;
+    margin-right:10px;
+    transition: transform 450ms; /* Sets the maximum height of each poster to 100px */
+}
+.row_poster:hover{
+    transform: scale(1.58);
+    opacity: 1;
+}
+.row_posterLarge{
+    max-height: 250px;
+}
+.row_posterLarge:hover{
+    transform:scale(1.59);
+    opacity: 1;
+}

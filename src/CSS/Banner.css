@@ -1,0 +1,62 @@
+/* Styles for the 'banner' class */
+.banner {
+    position: relative; /* Positions the banner relative to its normal position */
+    height: 948px; /* Sets the height of the banner */
+    color: white; /* Sets the text color to white */
+    object-fit: contain; /* Ensures the content is scaled to fit within the banner while maintaining its aspect ratio */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Styles for the 'banner_contents' class */
+.banner_contents {
+    margin-left: 30px; /* Adds a 30px space on the left side */
+    padding-top: 280px; /* Adds 140px padding at the top */
+    height: 190px; /* Sets the height of the banner contents */
+}
+
+/* Styles for the 'banner_title' class */
+.banner_title {
+    font-size: 6.7rem; /* Sets the font size of the title */
+    font-weight: 800; /* Makes the font weight bold (800 is a high level of boldness) */
+    padding-bottom: 0.3rem; /* Adds a small padding below the title */
+}
+
+/* Styles for the 'banner_description' class */
+.banner_description {
+    width: 45rem; /* Sets the width of the description */
+    line-height: 1.3; /* Sets the height between lines of text */
+    padding-top: 1rem; /* Adds padding at the top */
+    font-size: 1.0rem; /* Sets the font size of the description */
+    max-width: 360px; /* Sets the maximum width of the description */
+    height: 80px; /* Sets the height of the description */
+}
+
+/* Modified styles for the 'banner_fadeBottom' class */
+.banner_fadeBottom {
+    position: absolute; /* Positions the fade effect absolutely within the banner */
+    bottom: 0; /* Aligns the fade effect to the bottom of the banner */
+    width: 100%; /* Sets the width to span the entire width of the banner */
+    height: 10.4rem; /* Sets the height of the fade effect */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent); /* Creates a gradient effect starting solid at the bottom and fading to transparent */
+}
+
+/* Styles for the 'banner_button' class */
+.banner_button {
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    color: #fff; /* Sets the text color of the button to white */
+    outline: none; /* Removes the default outline */
+    border: none; /* Removes the default border */
+    font-weight: 700; /* Sets a bold font weight for the button text */
+    border-radius: 0.2vw; /* Rounds the corners of the button */
+    padding: 0.5rem 2rem; /* Adds padding to the top, bottom, left, and right */
+    margin-right: 1rem; /* Adds a margin to the right of the button */
+    background-color: rgba(51, 51, 51, 0.5); /* Sets a semi-transparent dark background color for the button */
+}
+
+/* Styles for the 'banner_button' class when hovered over */
+.banner_button:hover {
+    color: #000; /* Changes the text color to black */
+    background-color: #e6e6e6; /* Changes the background color to a light gray */
+    transition: all 0.2s; /* Adds a smooth transition effect to the color and background changes */
+}

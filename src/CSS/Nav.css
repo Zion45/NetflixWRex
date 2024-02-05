@@ -1,0 +1,43 @@
+/* Styles for the 'nav' class */
+.nav {
+    position: fixed; /* Makes the navigation bar stay in the same place even when scrolling */
+    top: 0; /* Positions the navigation bar at the top of the page */
+    padding: 20px; /* Adds padding inside the navigation bar */
+    width: 100%; /* Makes the navigation bar span the full width of the page */
+    height: 30px; /* Sets the height of the navigation bar */
+    z-index: 1; /* Ensures the navigation bar stays on top of other elements */
+
+    /* Animation properties */
+    transition-timing-function: ease-in; /* Controls the speed curve of the transition */
+    transition: all 0.5s; /* Applies a 0.5-second transition effect to all changes */
+}
+
+/* Styles for the 'nav_contents' class */
+.nav_contents {
+    display: flex; /* Displays the contents in a flexible row */
+    justify-content: space-between; /* Spaces out the items evenly */
+}
+
+/* Styles for the 'nav_logo' class */
+.nav_logo {
+    position: fixed; /* Keeps the logo in the same place */
+    top: 10px; /* Positions the logo 10px from the top */
+    left: 0; /* Aligns the logo to the left */
+    width: 120px; /* Sets the width of the logo */
+    object-fit: contain; /* Ensures the logo fits within its box without distortion */
+    padding-left: 20px; /* Adds padding to the left of the logo */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the logo */
+}
+
+/* Styles for the 'nav_avatar' class */
+.nav_avatar {
+    position: fixed; /* Keeps the avatar in the same place */
+    right: 20px; /* Positions the avatar 20px from the right */
+    width: 30px; /* Sets the width of the avatar */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the avatar */
+}
+
+/* Styles for the 'nav_black' class */
+.nav_black {
+    background-color: #111; /* Sets a dark background color */
+}
